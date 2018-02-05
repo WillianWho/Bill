@@ -1,0 +1,18 @@
+h1 { 
+ font: 'Arial Narrow Bold' 46pt;
+ color: white;
+ background: blue
+ 	
+ }
+h2{
+	font:'Times New Roman' 36pt
+}
+h3{
+	font: 'Franklin Gothic Medium' 20pt
+}
+p{
+	font: 'Arial' 12pt;
+	color: white;
+	background: silver
+}
+ 
