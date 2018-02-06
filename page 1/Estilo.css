@@ -15,4 +15,12 @@ p{
 	color: white;
 	background: silver
 }
- 
+
+Div.Right
+{
+	font: 'Arial' white;
+	font-size: 12pt;
+	background: silver;
+	margin-left: 25%
+	
+}
