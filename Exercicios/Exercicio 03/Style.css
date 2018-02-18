@@ -1,0 +1,54 @@
+	img
+		{
+		width: 80px;
+	    height: 70px;
+		vertical-align: middle;
+		}
+		img.abacaxi
+		{
+		width: 45px;
+	    height: 80px;
+		vertical-align: middle;
+		}
+		hr
+		{
+			width: 85%;
+			margin-center: 0;
+			height: 1px;
+			border-width:0;
+			background: white;
+		}
+	div.body
+	{
+		width: 500; 
+		height: 1680; 
+		background:#009;
+		color: #FFF; 
+		padding: 40px;
+		margin-top: 25px;
+		margin-bottom: 25px; 
+		border: 15px solid #900;
+	}
+	
+	li
+	{
+	margin-left: 170px;
+	text-align: left;
+	font-size: 20px;
+	}
+	p
+	{
+		font-size: 20px;
+	}
+	h1
+	{
+		font-size: 50px;
+	}
+	h2
+	{
+		font-size: 40px;
+	}
+	h3
+	{
+		font-size: 30px;
+	}
