@@ -1,0 +1,42 @@
+<HTML>
+		<HEAD>
+			<meta charset="utf-8"/>
+			<title>1º Formulário</title>
+
+		<LINK REL="STYLESHEET" HREF="style.css" TYPE="text/css">
+
+		</HEAD>
+		<BODY>
+		
+		<!--Form: "action" define o endereço do
+		site para aonde o formulário será
+		enviado. "Method" eu defino o método que
+		usarei, post ou get -->
+		<form action="/pagina-processa-dados-do-form" method="post"> 
+			
+			<div> 
+				<!--cria uma caixa de texto para receber "nome"-->	
+				</br>
+				<label for="name">Nome:</label> 
+				<!--"input" recebe um atributo do tipo "texto"-->
+				<input type="text" id="name" /> 
+		
+			</div> 
+			<div> 
+				<label for="mail">E-mail:</label> 
+				<!--"input" recebe um atributo do tipo "e-mail"-->
+				<input type="email" id="mail" /> </div> 
+			<div> 
+				<label for="msg">Mensagem:</label> 
+				<textarea id="msg"></textarea> 
+			</div> 
+			<div class="button">
+				<button type="submit">Enviar sua mensagem</button> 
+			</div> 
+		</form>
+			
+			
+			</BODY>
+	</HTML>
+    
+    
