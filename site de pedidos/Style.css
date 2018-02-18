@@ -1,4 +1,88 @@
-form 
+	img
+		{
+		width: 80px;
+	    height: 70px;
+		vertical-align: middle;
+		}
+		img.abacaxi
+		{
+		width: 45px;
+	    height: 80px;
+		vertical-align: middle;
+		}
+		hr
+		{
+			width: 85%;
+			margin-center: 0;
+			height: 2px;
+			border-width:0;
+			background: white;
+		}
+li
+	{
+	margin-left: 170px;
+	text-align: left;
+	font-size: 12px;
+	}
+	p.c
+	{
+		font-size: 20px;
+	}
+   div.c
+	{
+		width: 500; 
+		height: 1725; 
+		background:#009;
+		color: #FFF; 
+		padding: 40px;
+		margin-top: 25px;
+		margin-bottom: 25px; 
+		border: 15px solid #900;
+	}
+	h1.c
+	{
+		font-size: 50px;
+	}
+	h2.c
+	{
+		font-size: 40px;
+	}
+	h3.c
+	{
+		font-size: 30px;
+	}
+	div.p
+	{
+		margin: 0 auto;
+		width: 500; 
+		height: 1000; 
+		background:#009;
+		color: #FFF; 
+		padding: 40px;
+		margin-top: 25px;
+		margin-bottom: 25px; 
+		border: 15px solid #900;
+	}
+	p.p
+	{
+		font-size: 12px;
+	}
+	h1.p
+	{
+		font-size: 30px;
+		text-align: center;
+	}
+	h2.p
+	{
+		font-size: 20px;
+        text-align: center;
+	}
+	h3.p
+	{
+		font-size: 15px;
+        text-align: center;
+	}
+form.alone 
 		{ 
 		/* Apenas para centralizar o form na página */ 
 		margin: 0 auto; 
@@ -8,7 +92,7 @@ form
 		border-radius: 1em; 
 		}
 		
-		form div + div 
+		form.alone div.form + div.form 
 		{ 
 			margin-top: 1em; 
 		}
@@ -45,11 +129,13 @@ form
 			 }
 			 .button 
 			 { 
+              
 			 /* Para posicionar os botões para a mesma posição dos campos de texto */ 
-			 padding-left: 90px; /* mesmo tamanho que os elementos do tipo label */ 
+			 padding-left: 180px /* mesmo tamanho que os elementos do tipo label */ 
 			 } 
 			 button 
 			 { 
 			 /* Esta margem extra representa aproximadamente o mesmo espaço que o espaço entre as labels e os seus campos de texto*/ 
 			 margin-left: .5em; 
 			 }
+
