@@ -1,0 +1,68 @@
+h1
+{
+color: white;
+text-align: center;
+}
+h2
+{
+text-align: center;
+
+color: white;
+}
+input
+{
+width: 180px;
+						
+}
+input.botao
+{
+width: 88px;
+						
+}
+
+input.dia
+{
+width: 25px;
+}
+input.mes
+{
+width: 25px;
+}
+input.ano
+{
+width: 50px;
+}
+
+
+input.t
+{
+width: 25px;
+}
+input.t2
+{
+width: 100px;
+}
+div
+{
+background-color: #00BFFF;
+border: 10px inset #1E90FF;
+position: absolute;
+}
+p
+{
+color: white;
+font-size: 15px;
+text-align: right;
+margin-right: 60px;
+}
+a{
+font-size: 15px;
+text-align: center;
+text-decoration: none;
+color: black;
+border: 2px solid;
+background-color: #708090;
+margin-right:70px;
+}					
+					
+				

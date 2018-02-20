@@ -1,0 +1,39 @@
+h1
+{
+color: white;
+}
+h2
+{
+text-align: right;
+margin-right: 60px;
+color: white;
+}
+input
+{
+width: 180px;
+						
+}
+input.t
+{
+width: 25px;
+}
+input.t2
+{
+width: 100px;
+}
+div
+{
+background-color: #000080;
+border: 10px inset #1E90FF;
+position: absolute;
+}
+p
+{
+color: white;
+font-size: 15px;
+text-align: right;
+margin-right: 60px;
+}
+					
+					
+				
