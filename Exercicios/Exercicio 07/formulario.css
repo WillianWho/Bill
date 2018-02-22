@@ -20,21 +20,26 @@ width: 88px;
 						
 }
 
-input.dia
+.dia
 {
 width: 25px;
 maxlength:2;
 }
-input.mes
+.mes
 {
 width: 25px;
 maxlength:2;
 }
-input.ano
+.ano
 {
 width: 50px;
 maxlength: 4;
 }
+
+
+
+
+
 
 
 input.t
@@ -47,16 +52,20 @@ width: 100px;
 }
 div
 {
+
 background-color: #00BFFF;
 border: 10px inset #1E90FF;
 position: relative;
+width:500px;
+margin-left: 30%;
+margin-right: 30%;
 }
 p
 {
 color: white;
 font-size: 15px;
 text-align: right;
-margin-right: 380px;
+margin-right: 31%;
 }
 a{
 font-size: 15px;
@@ -67,6 +76,19 @@ border: 2px solid;
 background-color: #708090;
 margin-right:70px;
 }					
-					
-				
-    
+body
+{
+
+ background-color:#4B0082;
+}					
+img
+{
+height: 150px;
+
+}				
+.imagem
+{
+display: block;
+
+margin-right: 38%;
+}  
