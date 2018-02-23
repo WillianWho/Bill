@@ -19,10 +19,44 @@
 						<p class="imagem"><img src ="imagens\prof.png"/></p>
 					<h1>Cadastro do Professor</h1>
 					<hr>
-					<h2>Preencha seus dados do professor</h2>
+					<h2>Preencha os dados do professor</h2>
 					<hr>
 					<p>Nome:<input type="text" name="nome"/></p> 
-					<p>Ano de Nascimento:<input class="dia" type="text" name="nome" maxlength="2" /> /<input class="mes" maxlength="2" type="text" name="nome"/> /<input class="ano"type="text" name="nome" maxlength="4" /></p> 
+					<p> Data de Nascimento:
+					  <select id="dd"></select>
+
+						<script>
+							var text = "";
+							var i;
+							for (i = 01; i <= 30; i++) 
+							{
+    						text += "<option>" + i + "</option>";
+							}
+							document.getElementById("dd").innerHTML = text;
+						</script>
+						/
+						<select id="mm"></select>
+						<script>
+							var text2 = "";
+							var cont;
+							for(cont = 01; cont <= 12; cont++)
+							{
+								text2 += "<option>" + cont + "</option>";
+							}
+							document.getElementById("mm").innerHTML = text2; 
+						</script>
+							/
+							<select id="yyyy"></select>
+						<script>
+							var text2 = "";
+							var cont;
+							for(cont = 1980; cont <= 2018; cont++)
+							{
+								text2 += "<option>" + cont + "</option>";
+							}
+							document.getElementById("yyyy").innerHTML = text2; 
+						</script>
+					</p>
 					<p>Nome do pai:<input type="text" name="nome"/></p> 
 					<p>Nome da mãe: <input type="text" name="Email"/></p>
 					
