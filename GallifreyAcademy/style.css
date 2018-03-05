@@ -22,10 +22,10 @@ button
 	color: white;
     text-shadow: 0 0 5px #000;
 	text-align:right;
-	margin-left:13%;
+	margin-left:30%;
 	position: absolute;
-	top: 35%;
-	width: 24%;
+	top: 37%;
+	width: 7%;
 	padding: 20px 0;
 	background-color: rgba(255, 255, 255,0.5);
 }
@@ -35,7 +35,7 @@ button
 	text-align:left;
 	margin-left:43%;
 	position: absolute;
-	top: 37.4%;
+	top: 38.3%;
 	width: 50%;
 	padding: 20px 0;
 	background-color: rgba(255, 255, 255,0.5);
@@ -48,8 +48,8 @@ button
 	text-align:right;
 	margin-left:43%;
 	position: absolute;
-	top: 37.4%;
-	width: 50%;
+	top: 38.3%;
+	width: 25%;
 	padding: 20px 0;
 	background-color: rgba(255, 255, 255,0.5);
 	color: white;
@@ -130,14 +130,21 @@ a
    text-shadow: 0 0 5px #000;
 }
 
-             /*---------------*/
+/*---------------*/
 
 /* Esse código é só para tirar as margens */
-body,html
+html
 {
-   margin:0;
-  padding:0;
-  margin-bottom:0;
+   margin-top:0;
+   margin-left:0;
+   margin-right:0;
+   margin-bottom:0;
+   padding-top:0;
+   padding-left:0;
+   padding-right:0;
+   padding-bottom:0;
+   
+  
 }
 
 
@@ -151,7 +158,7 @@ body,html
   /* O tamanho das imagens irá criar uma barra de rolagem 
   horizontal. Iremos desativar isso */
   overflow-x: hidden;
-
+  
   /* A propriedade perspective indica a "distância" entre o 
   usuário e o plano Z.
   Quanto maior o valor, mais perto o elemento estará do usuário.
@@ -180,8 +187,9 @@ body,html
   Para garantir um bom efeito, coloquei também uma altura 
   mínima de 700px;
   */
-  height: 100vh;
-  min-height: 700px;
+  height: 130vh;
+  width: 200vh;
+  min-height:700px;
   
   /* Para manter a transformação em espaço 3D, indicamos o mesmo 
   valor do elemento pai (preserve-3d).
@@ -202,16 +210,16 @@ body,html
   
   /* Isso servirá para que o pseudo-elemento possua as mesmas
   dimensões do elemento <section> */
-  content: " ";
+  content: "";
   position: absolute;
   top: 0;
   right: 0;
-  bottom: 0;
+  bottom:0;
   left: 0;
   
   /* O z-index negativo irá garantir que a imagem não fique por 
   cima de outros elementos */ 
-  z-index: -1;
+  z-index: -20;
   
   /* Aqui estamos fazendo com que a imagem de fundo cubra todo o
   elemento */
@@ -269,12 +277,13 @@ mas não indicamos qual será a imagem.
 }
 .back
 {
-margin-top:0;
-margin-left:0;
-margin-right:0;
-margin:0;
-padding:0;
-padding-bottom:0;
-  margin-bottom:0;
-background-image: url('imagem/IMG.jpg');
+	margin-top:0;
+    margin-left:0;
+    margin-right:0;
+    margin-bottom:0;
+    padding-top:0;
+    padding-left:0;
+    padding-right:0;
+    padding-bottom:0;
+	background-image: url('imagem/IMG.jpg');
 }

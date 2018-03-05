@@ -35,13 +35,6 @@ maxlength:2;
 width: 50px;
 maxlength: 4;
 }
-
-
-
-
-
-
-
 input.t
 {
 width: 25px;
@@ -89,6 +82,10 @@ height: 150px;
 .imagem
 {
 display: block;
-
-margin-right: 38%;
+margin-right: 30%;
 }  
+.imagemP
+{
+display: block;
+margin-right: 38%;
+} 
