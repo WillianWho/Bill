@@ -1,0 +1,58 @@
+<html>
+	<head>
+		<title>Engenharia de Buraco Negro</title>
+        <LINK REL="STYLESHEET" HREF="style.css" TYPE="text/css">
+	
+	</head>
+	
+	<body class="back">
+		<main class="wrapper">
+			<section class="section bg1">
+    
+				<h1>Gallifrey Academy</h1>
+				<h2>Engenharia de Buraco Negro</h2>
+				<hr>
+				
+				<p class="menuLateralH2">
+					<button type="button"onclick="myFunction()">Fazer Matrícula</button></br></br>
+					<button type="button"onclick="newFunction()">Saber Mais</button></br></br>
+					<button type="button"><a class="nullo" HREF="index.html"> Home Page</a></button></br>
+				</p>
+				
+				<div class="vlH2"></div>
+				<div id="SM" class="textoCentralH2">
+					
+					<b>Objetivo:</b> 
+					Formar profissionais capacitados a planejar e desenvolver Buracos negros.</br>
+					<b>Competências:</b> 
+					O engenheiro de Buraco negro é capaz de planejar e executar projetos de  conversão de corpos celestes supermassivos ou não em buracos negros, assim como fazer a manutenção de Buracos Negros existentes.</br>
+					<b>Carga horária:</b> 36 anos.
+				</div>
+				
+				<div id="cad" class="textoCentralH2Form">
+					<p>Nome Completo/Designação Oficial:<input type="text" name="nome"/></p> 
+					<p>Planeta de Origem:<input type="text" name="PO"/></p> 
+					<p>Quadrante: <input type="text" name="text"/></p>
+					<p>Zona/Seção: <input type="text" name="ZS"/></p>
+					<p>ID do dispositivo de comunicação:<input type="email" name="IDDC"/></p>
+					<p>Código da última instituição de ensino: <input type="text" name="cuie"/></p>
+				</div>
+			</section>
+
+			<script>
+				function myFunction() 	
+				{
+					document.getElementById("SM").style.visibility = "hidden";
+					document.getElementById("cad").style.visibility = "visible";
+
+				}
+
+				function newFunction()	
+				{
+					document.getElementById("SM").style.visibility = "visible";
+					document.getElementById("cad").style.visibility = "hidden";
+				}
+				</script>
+		</main>
+	</body>
+</html>
