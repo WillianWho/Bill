@@ -1,0 +1,71 @@
+/* Reorganizar */
+
+
+/* logos branco */
+
+
+/* twitter */
+
+#logo-twitter-footer-branco {
+    margin: 1%;
+    border-radius: 50%;
+}
+
+
+/* facebook */
+
+#logo-facebook-footer-branco {
+    margin: 1%;
+    border-radius: 20%;
+}
+
+
+/* instagram */
+
+#logo-instagram-footer-branco {
+    margin: 1%;
+    border-radius: 23%;
+}
+
+
+/* logos com cor */
+
+
+/* twitter */
+
+#logo-twitter-footer-azul {
+    margin: 1%;
+    border-radius: 50%;
+    display: none;
+}
+
+
+/* facebook */
+
+#logo-facebook-footer {
+    margin: 1%;
+    border-radius: 20%;
+    display: none;
+}
+
+
+/* instagram */
+
+#logo-instagram-footer {
+    margin: 1%;
+    border-radius: 23%;
+    display: none;
+}
+/* Define o que occore quando o mouse passa por cima */
+#logo-twitter-footer-azul, #logo-facebook-footer, #logo-instagram-footer:hover {
+    box-shadow: 0 0 0 rgba(73, 44, 204, 0.4);
+    animation: pulse 2s infinite; /* pulse está definido no arquivo "animation.css" */
+}
+
+.decoration-none {
+    text-decoration: none !important;
+}
+
+#footer {
+    background-color: black;
+}

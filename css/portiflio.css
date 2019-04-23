@@ -1,0 +1,167 @@
+/* Personalização da Scrollbar */
+
+
+/* width */
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+
+/* Track */
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+
+/* Handle on hover */
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+
+/* Configuração das fontes que serão utilizadas */
+
+@font-face {
+    font-family: 'Rounded Elegance';
+    src: url(../fonts/Rounded_Elegance.ttf);
+}
+
+@font-face {
+    font-family: 'Arial Rounded';
+    src: url(../fonts/ARLRDBD.TTF);
+}
+
+.font-rounded-elegance {
+    font-family: 'Rounded Elegance';
+}
+
+.font-arial-rounded {
+    font-family: 'Arial Rounded';
+}
+
+.right-aling-text {
+    float: right;
+}
+
+.right-aling-text a {
+    text-decoration: none !important;
+    ;
+    color: black !important;
+    ;
+}
+
+.H3-title {
+    text-decoration: none !important;
+    ;
+    color: black !important;
+}
+
+
+/* div com o titulo "Portfólio" */
+
+#space {
+    margin-top: 10%
+}
+
+article {
+    width: 60%;
+    margin-left: 20%;
+}
+
+div.my-container div {
+    display: none;
+}
+
+div.my-container div:target {
+    display: block
+}
+
+hr {
+    clear: both;
+}
+
+.arte {
+    width: 40%;
+    margin-left: 25%;
+}
+
+.img-portfolio {
+    width: 90%;
+}
+
+
+.caixa{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    box-shadow: 10px 10px 8px #888888;
+    
+}
+
+
+/* faz a imagem sumir quando o mouse passa porcima dela */
+
+div.col-md-4>div.ocultoImg {
+    visibility: visible;
+    opacity: 1;
+    transition: visibility 0.5s, opacity 0.5s linear;
+}
+
+div.col-md-4:hover > div.ocultoImg {
+    visibility: hidden;
+    opacity: 0;
+}
+
+
+/* faz com que o texto fique oculto */
+
+div.col-md-4>div.oculto {
+    visibility: hidden;
+    opacity: 0;
+    max-height: 0;
+    transition: max-height 1s ease-in-out;
+    transition: visibility 0.5s, opacity 0.5s linear;
+}
+
+div.col-md-4:hover > div.oculto {
+    visibility: visible;
+    opacity: 1;
+    max-height: 2;
+}
+
+.hr-titulo {
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgb(00, 00, 00);
+    transition: all 2s;
+}
+
+.hr-titulo:hover {
+    border-color: rgb(2, 5, 41);
+}
+
+
+/* **** */
+
+
+/* para aparelhos com até 767px */
+
+@media only screen and (max-width: 767px) {
+    div.col-md-4 {
+        margin-bottom: 2%;
+        box-shadow: none;
+    }
+    div.col-md-4:hover > div.oculto {
+        border-bottom: 1px solid;
+    }
+}
+/* ################################################ */

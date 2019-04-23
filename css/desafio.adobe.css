@@ -1,0 +1,19 @@
+.container-center{
+    margin-left: 10%;
+    margin-right: 10%;
+    /* descartavel */
+    /* border: 3px solid purple; */
+}
+.desafio-adobe-final{
+    width:19%;
+    margin: 1%;
+}
+.desafio-adobe-proposta{
+    width:45%;
+    margin-left: 10%;
+    
+}
+.desafio-adobe-source{
+    float: right;
+    margin: 2%;
+}

@@ -1,0 +1,41 @@
+body {
+    background-color: #f1efed
+}
+
+.apresentacao {
+    /* border: 1px solid; */
+    margin-top: 10%;
+}
+
+.input-class:hover {
+    color: darkgray;
+    box-shadow: 0 0 0 0 #949494;
+    animation: pulse 2s 1;
+}
+
+@keyframes pulse {
+    0% {
+        -moz-box-shadow: 0 0 0 0 #94949480;
+        box-shadow: 0 0 0 0 #94949480;
+    }
+    70% {
+        -moz-box-shadow: 0 0 0 15px #94949400;
+        box-shadow: 0 0 0 15px #94949400;
+    }
+    100% {
+        -moz-box-shadow: 0 0 0 0 #94949400;
+        box-shadow: 0 0 0 0 #94949400;
+    }
+}
+
+@-webkit-keyframes pulse {
+    0% {
+        -webkit-box-shadow: 0 0 0 0 #94949480;
+    }
+    70% {
+        -webkit-box-shadow: 0 0 0 15px #94949400;
+    }
+    100% {
+        -webkit-box-shadow: 0 0 0 0 #94949400;
+    }
+}

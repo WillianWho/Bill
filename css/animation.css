@@ -1,0 +1,29 @@
+/* Ainda não implementado */
+
+
+@keyframes pulse {
+    0% {
+        -moz-box-shadow: 0 0 0 0 rgb(73, 44, 204);
+        box-shadow: 0 0 0 0 rgb(73, 44, 204);
+    }
+    70% {
+        -moz-box-shadow: 0 0 0 10px rgba(73, 44, 204, 0);
+        box-shadow: 0 0 0 10px rgba(73, 44, 204, 0);
+    }
+    100% {
+        -moz-box-shadow: 0 0 0 0 rgba(73, 44, 204, 0);
+        box-shadow: 0 0 0 0 rgba(73, 44, 204, 0);
+    }
+}
+@-webkit-keyframes pulse {
+    0% {
+      -webkit-box-shadow: 0 0 0 0 rgb(73, 44, 204);
+    }
+    70% {
+        -webkit-box-shadow: 0 0 0 0 rgba(73, 44, 204, 0);
+    }
+    100% {
+        -webkit-box-shadow: 0 0 0 0 rgba(73, 44, 204, 0);
+    }
+  }
+
