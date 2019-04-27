@@ -62,7 +62,7 @@ $idade_do_curso = $ano_atual - 2017;
                 <nav class="menu">
                     <ul>
                         <li><a href="#home">Home</a></li>
-                        <li><a href="./portfolio.html">Portfólio</a></li>
+                        <li><a href="./portfolio.php?nome=<?php echo $nome?>">Portfólio</a></li>
                         <li><a href="#contacts">Contatos</a></li>
                     </ul>
                 </nav>
