@@ -109,8 +109,8 @@ $idade_do_curso = $ano_atual - 2017;
                     <div class="alinhamento-vertical">
                         <img class="contatos to-left" src="./img/social-media-logo/email-logo-preto.png" alt="email">
                         <h1 class="to-right">
-                            <a href="mailto:willianoiveira608@gmail.com">Gmail</a> |
-                            <a href="mailto:willianoiveira608@hotmail.com">Hotmail</a>
+                            <a href="mailto:willianoiveira608@gmail.com" target="blank">Gmail</a> |
+                            <a href="mailto:willianoiveira608@hotmail.com" target="blank">Hotmail</a>
                         </h1>
                     </div>
                     

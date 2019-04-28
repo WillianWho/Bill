@@ -1,7 +1,7 @@
 <?php
 if (!empty($_GET['nome'])) {
     $nome = $_GET['nome'];
-     
+
 } else {
     $nome = "caro visitante";
 }
@@ -19,10 +19,12 @@ if (!empty($_GET['nome'])) {
     <link rel="stylesheet" href="./css/footer.css">
     <link rel="stylesheet" href="./css/loader.css">
     <link rel="stylesheet" href="./css/animation.css">
+    <link rel="stylesheet" href="./css/license.css">
 
 
     <script src="./js/navbar.js"></script>
     <script src="./js/portfolio.js"></script>
+    <script src="./js/footer.js"></script>
 
     <!-- ### bootstrap #### -->
 
@@ -65,7 +67,7 @@ if (!empty($_GET['nome'])) {
         <div id="navBar" class="header header-fixed">
             <div class="navbar">
                 <div class="logo oculto">
-                    <a href="./home.php?nome=<?php echo $nome?>#home">
+                    <a href="./home.php?nome=<?php echo $nome ?>#home">
                         <img id="logo-img" src="./img/Bill.png" onmouseenter="changeDisplay(this.id,'logo-img-2')"
                             alt="Who Design">
                         <img id="logo-img-2" src="./img/Bill-II.png" onmouseleave="changeDisplay(this.id,'logo-img')"
@@ -77,10 +79,10 @@ if (!empty($_GET['nome'])) {
                 <label for="navbar-toggle"><i></i></label>
                 <nav class="menu">
                     <ul>
-                        <li><a href="./home.php?nome=<?php echo $nome?>#home">Home</a></li>
-                        
+                        <li><a href="./home.php?nome=<?php echo $nome ?>#home">Home</a></li>
+
                         <li><a href="#portfolio">Portfólio</a></li>
-                        <li><a href="./home.php?nome=<?php echo $nome?>#contacts">Contatos</a></li>
+                        <li><a href="./home.php?nome=<?php echo $nome ?>#contacts">Contatos</a></li>
                     </ul>
                 </nav>
             </div>
@@ -262,7 +264,7 @@ if (!empty($_GET['nome'])) {
 
                     <div class="text-center oculto">
                         I caminhada pela inclusão da pessoa com T21, a sindrome de Down, flyer desenvolvido para
-                        para o Vitória Down. 
+                        para o Vitória Down.
                     </div>
                     <div class="ocultoImg">
                         <img class="img-portfolio" src="./img/portfolio/vitoria-down/vitoria-down-cartaz.png"
@@ -282,6 +284,17 @@ if (!empty($_GET['nome'])) {
             </div>
             <hr id="hr2" class="hr-titulo">
             <!-- fim da class container -->
+        </div>
+        <!-- LISENCE -->
+        <div id="ls" class="license">
+            <h3 class="text-center">Mockups Utilizados</h3>
+            <div class="list-group">
+                <a class="list-group-item decoration-none text-center" href="https://br.freepik.com/fotos-vetores-gratis/logotipo">Designertale</a>
+                <a class="list-group-item decoration-none text-center" href="https://br.freepik.com/fotos-vetores-gratis/logotipo">Yeven_popov</a>
+                <a class="list-group-item decoration-none text-center" href="https://br.freepik.com/fotos-vetores-gratis/fundo">Vector_corp</a>
+                <a class="list-group-item decoration-none text-center" href="https://br.freepik.com/fotos-vetores-gratis/logotipo">Qeaql-studio</a>
+                <a class="list-group-item decoration-none text-center" href="https://br.freepik.com/fotos-vetores-gratis/maquete">Rawpixel</a>
+            </div>
         </div>
         <!-- FOOTER -->
         <div id="footer" class="container-fluid">
@@ -312,11 +325,15 @@ if (!empty($_GET['nome'])) {
                         <img id="logo-twitter-footer-azul"
                             onmouseleave="changeDisplay(this.id,'logo-twitter-footer-branco')"
                             src="./img/social-media-logo/twitter-azul.png" alt="Twitter">
-
                     </a>
+                    <a onclick="visible(this.id,'ls');" id="interrogation" href="#null" class="decoration-none">
+                        <img title="Lisença Freepik" onclick="changeDisplay(this.id,'letraX')" id="interrogation-image" src="./img/button.png" alt="Lisença">
+                        <img title="Lisença Freepik" onclick="changeDisplay(this.id,'interrogation-image')" id="letraX" src="./img/buttonX.png" alt="Lisença">
+                </a>
                 </div>
             </div>
         </div>
+        <!-- FOOTER FIM -->
         <script type="text/javascript">
             // Este evendo é acionado após o carregamento da página
             jQuery(window).load(function () {

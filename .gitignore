@@ -2,7 +2,7 @@ teste-animation.html
 texto-bill.txt
 img/old-portifolio/
 old.portfolio.html
-formatar-texto-pra-home.html
+teste.html
 debug.log
 anima-logo/
 *.prproj
@@ -13,3 +13,5 @@ img/portfolio/Casa-Girassol/ai
 img/portfolio/Casa-Girassol/bruto
 img/portfolio/Desafio-Adobe/ai
 img/portfolio/Desafio-Adobe/Bruto
+CSS/teste.css
+*.json
