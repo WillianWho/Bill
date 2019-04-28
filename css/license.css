@@ -1,0 +1,23 @@
+#interrogation{
+    margin: 1%;
+  
+}
+.license{
+    visibility: hidden;
+    border: 3px solid rgb(2, 1, 1);
+    position: fixed;
+    width: 20%;
+    height: 70%;
+    bottom: 0px;
+	right: 0px;
+    background-color: aliceblue;
+    z-index: 998;
+    box-shadow: 0 0 5px 2px rgb(2, 1, 1);
+}
+
+#letraX{
+    display: none;
+}
+#interrogation-image{
+    display: inline;
+}
