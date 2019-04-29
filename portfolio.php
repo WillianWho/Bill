@@ -20,6 +20,7 @@ if (!empty($_GET['nome'])) {
     <link rel="stylesheet" href="./css/loader.css">
     <link rel="stylesheet" href="./css/animation.css">
     <link rel="stylesheet" href="./css/license.css">
+    <link rel="shortcut icon" type="image/x-icon" href="./img/favico.ico">
 
 
     <script src="./js/navbar.js"></script>

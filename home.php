@@ -20,6 +20,7 @@ $idade_do_curso = $ano_atual - 2017;
     <link rel="stylesheet" href="./css/footer.css">
     <link rel="stylesheet" href="./css/home.css">
     <link rel="stylesheet" href="./css/animation.css">
+    <link rel="shortcut icon" type="image/x-icon" href="./img/favico.ico">
 
     <script src="./js/navbar.js"></script>
 
